@@ -11,6 +11,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden; 
+    scroll-behavior: smooth;
 }
 
 body {
@@ -47,7 +48,6 @@ body {
     color: #fff;
     border-radius: 10px;
 }
-
 /* Hamuberger Menu */
 
 .header .navbar {
@@ -142,13 +142,14 @@ body {
 
 .order-headline h2 {
     font-size: 4rem;
+    color: darkred;
 }
 
 .order-options {
-    width: 80vw;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 4rem;
 }
 
@@ -237,7 +238,7 @@ body {
 }
 
 .location-headliner {
-    margin-top: 2rem;
+    margin-top: 1.8rem;
     margin-bottom: 2rem;
     font-size: 3rem;
 }
