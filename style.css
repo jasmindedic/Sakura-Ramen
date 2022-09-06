@@ -1,0 +1,468 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+}
+
+/* Header styling */
+.header {
+    /*width: 100vw;*/
+    height: 100vh;
+    background-image: url("./images/bgr1.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+/* Hamuberger Menu */
+.toggle-button {
+    width: 30px;
+    height: 24px;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.toggle-button .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #b2bec3;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* Hamuberger Menu */
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+.nav-logo {
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+
+.nav-logo img {
+    width: 5rem;
+}
+
+.nav-links {
+    margin-top: 3rem;
+    margin-right: 6rem;
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links ul li {
+    list-style-type: none;
+    margin-right: 3rem;
+    transition: transform 0.35s ease-in-out;
+}
+
+.nav-links ul li:hover {
+    transform: scale(1.2);
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#phone-number {
+    padding: 0.7rem 1.6rem;
+    background-color: darkred;
+    border-radius: 0.4rem;
+    border: solid 2px #fff;
+}
+
+#phone {
+    width: 1.6rem;
+    height: 1.8rem;
+    vertical-align: middle;
+    margin-right: 0.8rem;
+}
+
+/* Header text */
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.big-text h1 {
+    font-size: 6rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+.small-text h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: normal;
+}
+
+/* Section order */
+.order .container {
+    /*width: 100vw;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Economica", sans-serif;
+    font-weight: bold;
+}
+
+.order-headline {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.order-headline h2 {
+    font-size: 4rem;
+}
+
+.order-options {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.option {
+    text-align: center;
+}
+
+/* Section menu */
+.menu .container {
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-headline {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.menu-headline h2 {
+    font-size: 4rem;
+    font-family: "Economica", sans-serif;
+    font-weight: bold;
+    color: darkred;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.second-menu {
+    flex-direction: row-reverse;
+}
+
+.food-pic {
+    margin-right: 4rem;
+}
+
+.second-menu .food-pic {
+    margin-right: 0;
+    margin-left: 4rem;
+}
+
+.food-text {
+    width: 26rem;
+    height: 12rem;
+}
+
+.food-headline {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+.food-headline h3 {
+    font-family: "Economica", sans-serif;
+    font-weight: bold;
+}
+
+.title-price {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+
+.title-price p {
+    margin-bottom: 0.8rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+/* Section location */
+.location .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: normal;
+    color: darkred;
+}
+
+.location-headliner {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.location-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.location-text img {
+    margin-right: 0.4rem;
+    width: 1.3rem;
+}
+
+.location-text h3 {
+    font-size: 1.8rem;
+}
+
+.google-maps iframe {
+    width: 100vw;
+    margin-bottom: 2rem;
+}
+
+/* Section Footer */
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-left: 4rem;
+}
+
+.social-links {
+    margin-right: 4rem;
+}
+
+.social-links ul {
+    display: flex;
+}
+
+.social-links ul li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.social-links ul li a {
+    text-decoration: none;
+}
+
+/* Media queries */
+@media (max-width: 995px) {
+
+    /* Hamuberger Menu Beginning*/
+    .toggle-button {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        margin: 0;
+    }
+
+    .nav-logo {
+        display: none;
+        margin: 0;
+        margin-top: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links ul li {
+        margin: 0;
+        margin-bottom: 1.8rem;
+    }
+
+    .nav-logo.active {
+        display: flex;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    /* Hamuberger Menu End*/
+
+    .header-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 720px) {
+    .header-text h1 {
+        font-size: 4rem;
+    }
+
+    .order-options {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .option {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 950px) {
+    .menu-item {
+        flex-direction: column;
+    }
+
+    .food-pic {
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    .second-menu .food-pic {
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media (max-width: 620px) {
+    .location-headliner h2 {
+        font-size: 2.6rem;
+    }
+
+    .location-text h3 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 465px) {
+    .location-text {
+        flex-direction: column;
+    }
+
+    .location-text img {
+        margin-bottom: 0.5rem;
+    }
+
+    .location-text h3 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .food-pic img {
+        width: 18rem;
+    }
+
+    .food-text {
+        width: 20rem;
+        height: 12rem;
+    }
+
+    .food-headline h3 {
+        font-size: 2.2rem;
+    }
+
+    .title-price {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media (max-width: 345px) {
+    .food-pic img {
+        width: 16rem;
+    }
+
+    .food-text {
+        width: 15.5rem;
+        height: 12rem;
+    }
+
+    .food-headline h3 {
+        font-size: 2rem;
+    }
+
+    .title-price {
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .location-text h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 833px) {
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        margin-left: 0;
+    }
+
+    .social-links {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .footer-logo img {
+        width: 16rem;
+    }
+
+    .social-links ul li a img {
+        width: 3.6rem;
+    }
+}
