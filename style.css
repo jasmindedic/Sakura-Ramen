@@ -19,7 +19,7 @@ body {
 
 /* Header styling */
 .header {
-    /*width: 100vw;*/
+    width: 100vw;
     height: 100vh;
     background-image: url("./images/bgr1.jpg");
     background-size: cover;
@@ -127,7 +127,7 @@ body {
 
 /* Section order */
 .order .container {
-    /*width: 100vw;*/
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -434,6 +434,10 @@ body {
 
     .title-price {
         font-size: 1.15rem;
+    }
+
+    .order-headline {
+        text-align: center;
     }
 }
 
