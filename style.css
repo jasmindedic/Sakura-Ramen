@@ -219,6 +219,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 1.6rem;
+    color: darkred;
 }
 
 .title-price p {
@@ -260,7 +261,7 @@ body {
 
 .google-maps iframe {
     width: 100vw;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 /* Section Footer */
@@ -268,6 +269,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .footer-logo {
