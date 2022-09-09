@@ -483,7 +483,11 @@ body {
 }
 
 
-/* Webkit to hide scrollbar */
+
 ::-webkit-scrollbar {
     display: none;
 }
+
+::-webkit {
+    backface-visibility: hidden;
+} 
