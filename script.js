@@ -35,4 +35,4 @@ setInterval(function() {
 }, 2000)
 
 // Added transition to header 
-header.style.transition = "all 2s ease";
+header.style.transition = "background 2s ease-in-out";
