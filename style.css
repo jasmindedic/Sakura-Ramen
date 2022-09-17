@@ -294,6 +294,10 @@ body {
     text-decoration: none;
 }
 
+.social-links ul li a img{
+    width: 4rem;
+}
+
 /* Media queries */
 @media (max-width: 995px) {
 
